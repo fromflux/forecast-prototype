@@ -11,7 +11,7 @@ const ForecastItem = ({ min, max, icon, description, date }) => {
     <div className={styles.forecastItem}>
       <div className={styles.column}>{weekDayStr}</div>
       <div className={styles.column}>  
-        <img className={styles.forecastIcon} alt={description} src={`http://openweathermap.org/img/w/${icon}.png`}/>
+        <img className={styles.forecastIcon} alt={description} src={`https://openweathermap.org/img/w/${icon}.png`}/>
       </div>
       <div className={styles.column}>{description}</div>
       <div className={classnames(styles.column, styles.rightAlign)}>{Math.round(max)}° max</div>
