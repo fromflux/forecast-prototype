@@ -25,6 +25,7 @@ http://localhost:3000/
 
 ## TODOS
 - [ ] Complete test coverage
+- [ ] Implement responsive layout
 - [ ] Custom weather icons / Map API icon codes
 - [ ] Store selected location locally
 - [ ] Create todays forecast view
