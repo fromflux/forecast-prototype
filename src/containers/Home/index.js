@@ -51,8 +51,8 @@ export class Home extends Component {
 
   render () {
     const forecastByDay = this.forecastByDay(this.props.forecast)
-    const dailyForecast = Object.values(forecastByDay).map((item) => {
-      return this.dailyForecast(item)
+    const dailyForecast = Object.keys(forecastByDay).map((key) => {
+      return this.dailyForecast(forecastByDay[key])
     })
     return (
       <div className={styles.Home}>
