@@ -29,12 +29,27 @@ http://localhost:3000/
 npm test
 ```
 
+## Build for production
+
+```
+npm build
+```
+Generates bundle in public directory
+
+## Production server
+Add environment variable ```NODE_ENV=production``` and run
+
+```
+node server.js
+```
+
+
 ## TODOS
 - [ ] Complete test coverage
 - [ ] Implement responsive layout
 - [ ] Custom weather icons / Map API icon codes
 - [ ] Store selected location locally
-- [ ] Create todays forecast view
+- [ ] Create today forecast view
 - [ ] Allow for multiple stored locations
 
 ## License
