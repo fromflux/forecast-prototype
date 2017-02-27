@@ -3,7 +3,7 @@ import styles from './styles.css'
 import { connect } from 'react-redux'
 import AppHeader from '../../components/AppHeader'
 
-const App = (props) => {
+export const App = (props) => {
   return (
     <div className={styles.layout}>
       <header className={styles.header}>

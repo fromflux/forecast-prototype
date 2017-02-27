@@ -23,6 +23,12 @@ npm start
 http://localhost:3000/
 ```
 
+## Running tests
+
+```
+npm test
+```
+
 ## TODOS
 - [ ] Complete test coverage
 - [ ] Implement responsive layout

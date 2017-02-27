@@ -1,4 +1,4 @@
-import fetch from 'isomorphic-fetch'
+import 'whatwg-fetch';
 
 export const RECEIVE_LOCATIONS = 'RECEIVE_LOCATIONS'
 export const CLEAR_LOCATIONS = 'CLEAR_LOCATIONS'
