@@ -1,6 +1,6 @@
 # fromflux/forecast-prototype
 
-This is the source code for the app prototype available [here](http://forecast-prototype.herokuapp.com/).
+This is the source code for the app prototype available [here](https://forecast-prototype.herokuapp.com/).
 
 ## Installation
 
